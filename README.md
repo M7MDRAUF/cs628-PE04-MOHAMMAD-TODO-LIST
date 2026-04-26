@@ -72,3 +72,21 @@ The current implementation has been validated with:
 - `npm test`
 - `npm run build`
 - `npm run check`
+
+## Browser Test Preview
+
+The app was also tested directly in the integrated browser with realistic ToDo entries.
+
+Tested interactions:
+
+- Empty submit feedback
+- Adding multiple tasks
+- Deleting an existing task
+
+### Filled ToDo List
+
+![Filled ToDo list after adding browser-tested tasks](docs/screenshots/todo-list-filled.png)
+
+### After Delete Action
+
+![ToDo list after deleting one task in the browser](docs/screenshots/todo-list-after-delete.png)
